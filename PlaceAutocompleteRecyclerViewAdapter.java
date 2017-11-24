@@ -28,7 +28,7 @@ public class PlaceAutocompleteRecyclerViewAdapter
      */
     private AutocompleteFilter mPlaceFilter;
     private Context context;
-    public SearchResultsAdapter.OnItemClickListener onItemClickListener;
+    public OnItemClickListener onItemClickListener;
 
     /**
      * Initializes with a resource for text rows and autocomplete query bounds.
