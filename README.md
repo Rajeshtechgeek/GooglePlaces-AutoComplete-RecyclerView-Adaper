@@ -8,4 +8,6 @@ Don't forget to add in your Activity.
         // Construct a GeoDataClient for the Google Places API for Android.
         mGeoDataClient = Places.getGeoDataClient(getActivity(), null);
      mAdapter = new PlaceAutocompleteRecyclerViewAdapter(getActivity(), mGeoDataClient, Constants.BOUNDS_GREATER_SYDNEY, null);
+     
+put the below code in Editext Text changed event.
            mAdapter.getFilter().filter(charSequence.toString());
